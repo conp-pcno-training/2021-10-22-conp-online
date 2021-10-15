@@ -59,7 +59,7 @@ title: "Working with Neuro Imaging Data and the Brain Imaging Data Structure (BI
 # in The Carpentries Incubator).
 #
 # For an Incubator workshop, uncomment the line below and add the URL of the lesson site.
-# incubator_lesson_site: "https://github.com/carpentries-incubator/SDC-BIDS-IntroMRI", "https://github.com/carpentries-incubator/SDC-BIDS-sMRI", "https://github.com/carpentries-incubator/SDC-BIDS-dMRI", "https://github.com/carpentries-incubator/SDC-BIDS-fMRI", "https://github.com/carpentries-incubator/SDC-BIDS-EEG-EEGLAB", "https://github.com/carpentries-incubator/SDC-EEGLAB"
+incubator_lesson_site: ["https://github.com/carpentries-incubator/SDC-BIDS-IntroMRI", "https://github.com/carpentries-incubator/SDC-BIDS-sMRI", "https://github.com/carpentries-incubator/SDC-BIDS-dMRI", "https://github.com/carpentries-incubator/SDC-BIDS-fMRI", "https://github.com/carpentries-incubator/SDC-BIDS-EEG-EEGLAB", "https://github.com/carpentries-incubator/SDC-EEGLAB"]
 #
 # For an Incubator workshop, uncomment the line below and add the URL of your pre-workshop survey
 # incubator_pre_survey: "put the URL of your pre-workshop survey here"
