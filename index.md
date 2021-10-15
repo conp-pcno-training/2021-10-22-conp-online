@@ -382,16 +382,16 @@ of code below the Schedule `<h2>` header below with
 {% include custom-schedule.html %}
 
 {% comment %}
-#{% if site.carpentry == "swc" %}
-#{% include swc/schedule.html %}
-#{% elsif site.carpentry == "dc" %}
-#{% include dc/schedule.html %}
-#{% elsif site.carpentry == "lc" %}
-#{% include lc/schedule.html %}
-#{% elsif site.carpentry == "incubator" %}
-#This workshop is teaching a lesson in [The Carpentries Incubator](https://carpentries-incubator.org/).
-#Please check [the lesson homepage]({{ site.incubator_lesson_site }}) for a list of lesson sections and estimated timings.
-#{% endif %}
+{% if site.carpentry == "swc" %}
+{% include swc/schedule.html %}
+{% elsif site.carpentry == "dc" %}
+{% include dc/schedule.html %}
+{% elsif site.carpentry == "lc" %}
+{% include lc/schedule.html %}
+{% elsif site.carpentry == "incubator" %}
+This workshop is teaching a lesson in [The Carpentries Incubator](https://carpentries-incubator.org/).
+Please check [the lesson homepage]({{ site.incubator_lesson_site }}) for a list of lesson sections and estimated timings.
+{% endif %}
 {% endcomment %}
 
 {% comment %}
