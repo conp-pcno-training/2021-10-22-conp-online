@@ -446,7 +446,10 @@ during the workshop.
 {% elsif site.carpentry == "lc" %}
 {% include lc/setup.html %}
 {% elsif site.carpentry == "incubator" %}
-Please check the "Setup" page of
-[the lesson site]({{ site.incubator_lesson_site }}) for instructions to follow
-to obtain the software and data you will need to follow the lesson.
+Please check the "Setup" page of each lesson:
+{% for lesson_site in site.incubator_lesson_site %}
+  <p><a href="{{ lesson_site }}">{{ lesson_site }}</a></p>
+{% endfor %}
+for instructions to follow to obtain the software and data you will need to
+follow the lesson.
 {% endif %}
