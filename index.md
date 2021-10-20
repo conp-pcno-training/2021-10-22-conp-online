@@ -98,6 +98,10 @@ the pitch.
 {% if site.pilot %}
 This is a pilot workshop, testing out a lesson that is still under development. The lesson authors would appreciate any feedback you can give them about the lesson content and suggestions for how it could be further improved.
 {% endif %}
+<p id="reg">
+  <strong>Registration:</strong>
+  <a href="https://mcgill.zoom.us/meeting/register/tZcucOitqj0rHtRQFuG0KVxGyNvzs6mpR7bz">https://mcgill.zoom.us/meeting/register/tZcucOitqj0rHtRQFuG0KVxGyNvzs6mpR7bz</a>.
+</p>
 
 {% comment %}
 AUDIENCE
